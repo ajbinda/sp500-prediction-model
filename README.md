@@ -27,11 +27,11 @@ pip install pandas fredapi statsmodels
 python "S&P 500 Prediction Model.py"
 
 ## Methodology
-- **Data Source:** FRED API (monthly, 2016-2026)
-- **Features:** GDP growth, unemployment change, real interest rates (10Y), consumer sentiment
-- **Transformations:** Linear interpolation, percentage change, first differencing
+- **Data Source:** FRED API (2016–2026)
+- **Features:** GDP growth, unemployment change, real interest rate changes (10Y), consumer sentiment growth
+- **Transformations:** Resampled quarterly GDP data to monthly frequency using linear interpolation; applied percentage change and first differencing; smoothed S&P 500 returns using a 5-day rolling average
 - **Model:** Ordinary Least Squares (OLS) regression
-- **Time Lags:** Most indicators lagged 1 month; real rates lagged 3 months
+- **Time Lags:** Most indicators lagged 1 month; real interest rates lagged 3 months
 ## Limitations
 - Small sample size (113 observations ~ 10 years of data)
 - Assumes linear relationships
