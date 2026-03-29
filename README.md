@@ -14,8 +14,8 @@ S&P 500 Return = β₀ + β₁(GDP) + β₂(Unemployment) + β₃(Real Rate) + �
 |----------|-------------|---------|-----------------|
 | GDP Growth | 0.192 | 0.001 | Economic expansion drives returns |
 | Unemployment Change | 0.0012 | 0.003 | Rising unemployment associated with higher returns |
-| Real Interest Rate | 0.0034 | 0.028 | Higher real rates associated with higher returns |
-| Consumer Sentiment | 0.0086 | 0.147 | Higher consumer sentiment associated with higher returns |
+| Real Interest Rate Change | 0.0034 | 0.028 | Higher real rates associated with higher returns |
+| Consumer Sentiment Growth | 0.0086 | 0.147 | Higher consumer sentiment associated with higher returns |
 ## Data Source
 Federal Reserve Economic Data (FRED) API - https://fredaccount.stlouisfed.org/
 ## Usage
