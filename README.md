@@ -2,8 +2,8 @@
 ## Overview
 A regression model predicting S&P 500 monthly returns using macroeconomic indicators from the Federal Reserve Economic Data (FRED) API.
 ## Results
-- **R² = 0.133** (explains 13.3% of monthly returns)
-- **F-statistic = 0.00372** (highly significant)
+- **R² = 0.133** (explains 13.3% of monthly return variation)
+- **F-statistic = 4.14** with **p = 0.0037** (model is statistically significant)
 - **Sample:** 113 monthly observations (2016-2026)
 ## Model Specification
 
